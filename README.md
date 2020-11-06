@@ -21,7 +21,7 @@ Example to implement a verification code using node js for backend and react for
 
 ## API endpoints:
 ### [POST] /verification-code
-  rqeuest: {email: 'email@domain.com', phone: '111 222 3333'}
+  request: {email: 'email@domain.com', phone: '111 222 3333'}
   response: {code: 'code', message: 'message for user if sms systems failed'}
   status:
     * 200 - sms sended sucessfuly
@@ -29,7 +29,7 @@ Example to implement a verification code using node js for backend and react for
     * 500 - server error
   
 ### [POST] /verification-code/verify
-  rqeuest: {email: 'email@domain.com', code: '12345'}
+  request: {email: 'email@domain.com', code: '12345'}
   response: {message: 'message for user if verifications was sucess or not'}
   status:
     * 200 - code verified succesfuly
