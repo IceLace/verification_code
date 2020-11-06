@@ -42,9 +42,9 @@ class VerificationCode {
     const message = 'Hi <email>! Your verification code for Rever is <code>. ' +
       'We are sending you this notification through our <messaging mechanism> subsystem.';
 
-    const twilioNumber = '+12058966377';
-    const accountSid = 'ACdd1399eb96390b9fa805cae071c28a50'; 
-    const authToken = '4ab5e54293488427f598a861a4b56c15';
+    const twilioNumber = '<TWILIO_PHONE_NUMBER>';
+    const accountSid = '<TWILIO_ACCOUNT_ID>'; 
+    const authToken = '<TWILIO_TOKEN>';
     const client = require('twilio')(accountSid, authToken);
 
     let body = message
