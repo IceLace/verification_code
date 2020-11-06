@@ -5,7 +5,7 @@ Example to implement a verification code using node js for backend and react for
 * const accountSid = '<TWILIO_ACCOUNT_ID>'; 
 * const authToken = '<TWILIO_TOKEN>';
 
-A [link](https://github.com/IceLace/verification_code/blob/main/verification%20code.png "Diagram") of the algoritm can be found in the repository.
+A [diagram](https://github.com/IceLace/verification_code/blob/main/verification%20code.png "Diagram") of the algorithm can be found in the repository.
 
 ## To Execute backend open a new terminal:
 1. cd backend
