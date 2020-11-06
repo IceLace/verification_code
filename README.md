@@ -5,17 +5,19 @@ Example to implement a verification code using node js for backend and react for
 * const accountSid = '<TWILIO_ACCOUNT_ID>'; 
 * const authToken = '<TWILIO_TOKEN>';
 
+[link] A (https://github.com/IceLace/verification_code/blob/main/verification%20code.png "Diagram") of the algoritm can be found in the repository.
+
 ## To Execute backend open a new terminal:
-1.- cd backend
-2.- npm install
-3.- npm start
+1. cd backend
+2. npm install
+3. npm start
 
 * Backend is executed in port 9000
 
 ## To Execute Frontend open a new terminal:
-1.- cd frontend
-2.- npm install
-3.- npm start
+1. cd frontend
+2. npm install
+3. npm start
 
 * Frontend is executed in port 3000
 
@@ -38,5 +40,5 @@ Example to implement a verification code using node js for backend and react for
 
 ## Testing
 Project includes mocha for backend, to execute it open a new terminal:
-1.- cd backend
-2.- npm test
+1. cd backend
+2. npm test
